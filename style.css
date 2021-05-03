@@ -16,6 +16,7 @@ nav{
     padding-right: 4em;
     /* TODO: figure out how to make center */
     position: center;
+    
     width: 100%;
     top:0;
     left:0;
@@ -64,7 +65,7 @@ h1{
   padding-top: 20%;
   font-weight: 500;
   font-size:4em;
-  color: rgb(126, 125, 125)
+  color: rgb(180, 179, 179)
 }
 
 h2{
@@ -78,7 +79,7 @@ h2{
     font-weight: 500;
     padding-top: 10%;
     font-size:4em;
-    color: rgb(126, 125, 125)}
+    color: rgb(190, 190, 190)}
 
 .portfolio{
     /* margin-top: 10vh; */
@@ -86,7 +87,7 @@ h2{
     padding-top: 30%;
     font-weight: 500;
     font-size:4em;
-    color: rgb(126, 125, 125)}
+    color: rgb(160, 157, 157)}
 
 .projects{
   padding-top: 10%;
@@ -155,8 +156,6 @@ h2{
 }
 .box1 {
     grid-area: a;
-   
-
 }
 
 .box2 {
@@ -186,19 +185,42 @@ h2{
 
 
 /* ABOUT ME CSS*/
-.about-me {
+/* @media screen and (max-width: 900px) {
+  .about-me {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: rgb(73, 205, 209);
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+      "nav"
+      "about-image"
+      "about-paragraph"
+     
+      ;
+  } 
+  nav{
+      grid-area:nav;
+  }
+  .image about-image{
+      grid-area:image about-image;
+  }
+  .about-paragraph{
+      grid-area:about-paragraph;
+  }
+  } */
+.about-me { 
     height: 100vh !important;
     background-color: rgb(73, 205, 209) !important;
     padding: 20vh 50px 0 50px;
     column-count: 1;
 }
-
-.about-me img{
+ .about-me img{
   width: 60%;
   border-radius: 8%;
   margin-bottom: 4em;
-}
-
+} 
 .about-me p{
   text-align: left;
   font-size:1em;
@@ -206,8 +228,7 @@ h2{
 }
 .paragraph2{
   text-indent: 2em;
-}
-/* the span tag that wrap starts off my paragraph */
+} the span tag that wrap starts off my paragraph
 .bigText {
   font-size:2em;
   padding-right:.5em;
