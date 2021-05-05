@@ -71,7 +71,9 @@ h1{
 h2{
   font-size: 2em;
 }
-
+.p{
+  font-size: 30%;
+}
 
 .welcome{
     margin-top: 10vh;
@@ -87,7 +89,7 @@ h2{
     padding-top: 30%;
     font-weight: 500;
     font-size:4em;
-    color: rgb(29, 182, 110)}
+    color: rgb(28, 13, 92)}
 
 .projects{
   padding-top: 10%;
